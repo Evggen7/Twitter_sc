@@ -1,0 +1,9 @@
+[2025-12-19 05:30:54] Starting twitter_scanario (GraphQL UserTweets)
+[2025-12-19 05:30:54] Fetching profile HTML for JS discovery: https://x.com/elonmusk
+[2025-12-19 05:30:54] Profile HTML status: 200
+[2025-12-19 05:30:54] Fetching JS bundle: https://abs.twimg.com/responsive-web/client-web/main.97c8affa.js
+[2025-12-19 05:30:55] Bearer + queryIds discovered
+[2025-12-19 05:30:55] Bearer discovery OK
+[2025-12-19 05:30:55] user_id resolved: 44196397
+[2025-12-19 05:30:57] Page 1: got 11 tweets, total=10, cursor=yes
+[2025-12-19 05:30:57] Saved 10 tweets to tweets.txt
