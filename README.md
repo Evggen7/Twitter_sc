@@ -2,8 +2,14 @@
 
 ## Requirements
 - Python 3.9+
-- Installed `requests` package
+- Installed `requests`
+- Installed `beautifulsoup4`
 
+Install dependencies:
+
+```bash
+pip install requests beautifulsoup4
+```
 ## Run
 Example usage:
 
@@ -14,12 +20,3 @@ Parameters:
 - `--user` — username without `@`
 - `--count` — number of tweets to extract (default: 10)
 - `--out` — file to save the result (default: `tweets.txt`)
-
-## Optional
-- `--log run.log` — save execution log (enabled by default)  
-  To disable the log file:
-  ```bash
-  --log -
-  ```
-- `--no-retweets` — exclude retweets  
-- `--no-replies` — exclude replies
